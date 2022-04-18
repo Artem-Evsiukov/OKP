@@ -3,7 +3,7 @@ $breakpoints: (
   'phone-sm': 320px,
   'phone-md': 375px,
   'phone': 480px,
-  'phone-lg': 576px, 
+  'phone-lg': 600px, 
   'tablet': 768px,
   'tablet-lg': 992px,
   'desktop': 1024px,
@@ -20,6 +20,14 @@ $border: #CCCCCC;
 $success: #28A745;
 $warning: #FFC117;
 $error: #DC3545;
+$primary-color:#1F2428;
+$secondary-color:#01CD7D;
+$bg-btn:#41B7E9;
+
+
+
+$btn-color: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+$bg-sections:linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
 
 // Fonts
 $primary-font: 'Gilroy';
