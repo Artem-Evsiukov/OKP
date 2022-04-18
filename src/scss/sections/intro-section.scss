@@ -1,0 +1,37 @@
+.intro-section {
+  padding: 0 0 8rem;
+  @include media('>=tablet') {
+    padding: 0 0 16rem;
+  }
+
+  &__wrap {
+    padding: 4rem 0 4rem;
+    background-image: $bg-sections;
+    border-radius: 36px;
+    @include media('>=tablet') {
+      padding: 9.6rem 0 10.8rem;
+    }
+  }
+}
+
+.intro {
+  @include media('>=tablet') {
+    background-image: url('../images/int.svg');
+    background-repeat: no-repeat;
+    background-size: 34%;
+    background-position: right center;
+  }
+
+  .section-subtitle {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 210%;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 3.6rem;
+    @include media('>=tablet') {
+      max-width: 70.7rem;
+    }
+  }
+}
