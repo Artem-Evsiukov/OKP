@@ -1,3 +1,35 @@
-.benefit-section{
-    padding: 0 0 10rem;
+.benefit-section {
+  padding: 0 0 10rem;
+
+  .section-title {
+    width: 100%;
+    margin-bottom: 4rem;
+    @include media('>=tablet') {
+      max-width: 47.7rem;
+    }
+  }
+}
+.benefit {
+    padding: 2.4rem 2.3rem;
+  &__wrap {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    margin-right: 1.7rem;
+    width: 5.2rem;
+    height: 5.2rem;
+    flex: none;
+  }
+  &__text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%; 
+    color: #1F2428;
+    white-space: nowrap;
+  }
 }

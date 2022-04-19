@@ -4,24 +4,17 @@
   }
 
   &__btn {
-    color: #000;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-bottom: none;
+   
     transition: $base-transition;
-    font-size: 20px;
+    width: 100%;
     cursor: pointer;
 
     &:hover {
-      background-color: #ccc;
-    }
-
-    & + & {
-      margin-left: 10px;
+        background: #f2f6fc;
     }
 
     &.active {
-      background-color: #ccc;
+        background: #f2f6fc;
     }
   }
 

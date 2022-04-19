@@ -57,12 +57,13 @@
     "start": "gulp"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "choices.js": "^9.0.1",
     "include-media": "^1.4.9",
     "inputmask": "^5.0.6",
     "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
-    "swiper": "^6.4.6",
+    "swiper": "^6.8.4",
     "validate.js": "^0.13.1"
   }
 }

@@ -1,0 +1,57 @@
+// .swiper {
+//   overflow: hidden;
+//   position: relative;
+//   svg {
+//     width: 100%;
+//     display: block;
+//   }
+// }
+.benefit-wrap {
+  background: #ffffff;
+  box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  padding: 0 7rem;
+}
+.benefit-button-next,
+.benefit-button-prev {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.benefit-button-next {
+  background-image: url('../images/arrow-r.svg');
+  right: 27px;
+  
+}
+.benefit-button-prev{
+    background-image: url('../images/arrow-l.svg');
+    left: 27px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
